@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    background-color:lightgrey;
+}
+
+
+.container {
+    margin: auto;
+    background-color: white;
+    margin-top: 5rem;
+    width: 65%;
+    border-radius: 10px;
+    max-width: 650px;
+    overflow: hidden;
+
+}
+
+li {
+    list-style: none;
+    margin-left: -8px;
+    margin-bottom: 4px;
+}
+
+section {
+    padding: 15px;
+    
+}
+
+.container-sub {
+    height: 15rem;
+}
+
+
+
+.section-color-1 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.section-color-2 {
+    background-color: hsla(179, 62%, 43%, 0.74);
+}
+
+
+.color-1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.color-2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.color-3 {
+    color:hsl(192, 3%, 38%);
+}
+
+span {
+    font-size: 35px;
+}
+
+.span {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    color: white;
+    
+
+}
+
+.row > section {
+    flex:1;
+}
+
+
+.font-size {
+    font-size: 18px;
+}
+
+.paragpraph-bottom {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+button {
+    position: relative;
+    top:50%;
+    left: 51%;
+    transform: translate(-50%, -35%);
+    width: 15rem;
+    height:3rem;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    color: hsl(71, 73%, 54%);
+    background-color: white;
+}
+
+span:hover {
+    color: hsl(71, 73%, 54%);
+}
+
+h1:hover {
+    color: hsl(71, 73%, 54%);
+}
